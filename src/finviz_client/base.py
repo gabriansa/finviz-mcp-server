@@ -7,7 +7,7 @@ import pandas as pd
 import requests
 from dotenv import load_dotenv
 
-from ..models import StockData
+from models import StockData
 
 # 環境変数の読み込み
 load_dotenv()
