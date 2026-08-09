@@ -4,8 +4,8 @@ from typing import List, Optional, Union
 
 import pandas as pd
 
-from ..models import NewsData
-from .base import FinvizClient
+from models import NewsData
+from finviz_client.base import FinvizClient
 
 logger = logging.getLogger(__name__)
 
