@@ -13,7 +13,7 @@ from typing import Any, Dict, List, Optional
 import requests
 from sec_edgar_api import EdgarClient
 
-from ..utils.validators import validate_ticker
+from utils.validators import validate_ticker
 
 logger = logging.getLogger(__name__)
 
