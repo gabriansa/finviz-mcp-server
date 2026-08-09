@@ -1,12 +1,12 @@
 import logging
 from typing import Any, Dict, List, Optional
 
-from ..models import (
+from models import (
     MARKET_CAP_FILTERS,
     StockData,
     UpcomingEarningsData,
 )
-from .base import FinvizClient
+from finviz_client.base import FinvizClient
 
 logger = logging.getLogger(__name__)
 
