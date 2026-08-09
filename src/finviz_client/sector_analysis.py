@@ -4,7 +4,7 @@ from typing import Any, Dict, List, Optional
 
 import pandas as pd
 
-from .base import FinvizClient
+from finviz_client.base import FinvizClient
 
 logger = logging.getLogger(__name__)
 
