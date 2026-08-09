@@ -31,7 +31,7 @@ except Exception:  # pragma: no cover – testing environments without mcp
 
 # Import field mapping from constants
 try:
-    from ..constants import FINVIZ_COMPREHENSIVE_FIELD_MAPPING
+    from constants import FINVIZ_COMPREHENSIVE_FIELD_MAPPING
 except ImportError:
     try:
         from constants import FINVIZ_COMPREHENSIVE_FIELD_MAPPING
