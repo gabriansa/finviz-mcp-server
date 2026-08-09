@@ -31,7 +31,7 @@ class FinvizNewsClient(FinvizClient):
             NewsData オブジェクトのリスト
         """
         try:
-            from ..utils.validators import parse_tickers, validate_tickers
+            from utils.validators import parse_tickers, validate_tickers
 
             # ティッカーの妥当性チェック
             if not validate_tickers(tickers):
