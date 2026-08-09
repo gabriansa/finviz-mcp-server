@@ -1,6 +1,6 @@
 from typing import Any, Dict, List, Optional
 
-from ..models import NewsData, SectorPerformance, StockData
+from models import NewsData, SectorPerformance, StockData
 
 
 def format_stock_data_table(
