@@ -1,7 +1,7 @@
 import re
 from typing import Any, Dict, List, Optional, Tuple, Union
 
-from ..constants import ALL_PARAMETERS
+from constants import ALL_PARAMETERS
 
 
 def validate_ticker(ticker: str) -> bool:
@@ -481,7 +481,7 @@ def validate_data_fields(fields: List[str]) -> List[str]:
     """
     # constants.pyのFINVIZ_COMPREHENSIVE_FIELD_MAPPINGから動的に有効フィールドを取得
     try:
-        from ..constants import FINVIZ_COMPREHENSIVE_FIELD_MAPPING
+        from constants import FINVIZ_COMPREHENSIVE_FIELD_MAPPING
     except ImportError:
         # 直接実行時の場合
         import os
